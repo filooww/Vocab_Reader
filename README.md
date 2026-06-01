@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Vocab Reader" />
+<img src="./banner.svg" width="100%" alt="Vocab Reader" />
 
 <br/>
 
