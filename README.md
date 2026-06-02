@@ -69,22 +69,22 @@ Practice SAT-style R&W questions with explanations.
 A deliberately simple stack — one Node server, one vanilla-JS frontend, no build step, no framework bloat.
 
 ```
-                                            ┌─────────────────────────────┐
-                                            │   Browser (single HTML +    │
-                                            │   vanilla JS, no framework) │
-                                            └──────────────┬──────────────┘
-                                                           │  fetch /api/*
-                                            ┌──────────────▼──────────────┐
-                                            │   Node.js + Express server  │
-                                            │   · prompt orchestration    │
-                                            │   · multi-provider failover │
-                                            │   · rate-limit & key pool   │
-                                            └──────┬───────────────┬──────┘
-                                                   │               │
-                                            ┌──────▼─────┐   ┌─────▼──────┐
-                                            │  AI APIs   │   │  Upstash   │
-                                            │ (BYO key)  │   │  Redis     │
-                                            └────────────┘   └────────────┘
+                                    ┌─────────────────────────────┐
+                                    │   Browser (single HTML +    │
+                                    │   vanilla JS, no framework) │
+                                    └──────────────┬──────────────┘
+                                                   │  fetch /api/*
+                                    ┌──────────────▼──────────────┐
+                                    │   Node.js + Express server  │
+                                    │   · prompt orchestration    │
+                                    │   · multi-provider failover │
+                                    │   · rate-limit & key pool   │
+                                    └──────┬───────────────┬──────┘
+                                           │               │
+                                    ┌──────▼─────┐   ┌─────▼──────┐
+                                    │  AI APIs   │   │  Upstash   │
+                                    │ (BYO key)  │   │  Redis     │
+                                    └────────────┘   └────────────┘
 ```
 
 Some of the bits I'm proud of:
