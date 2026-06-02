@@ -56,14 +56,7 @@ Practice SAT-style R&W questions with explanations.
 
 <div align="center">
 
-<!-- Replace these with real screenshots: drop images in /assets and update the paths -->
-<img src="./assets/screenshot-reading.png" width="80%" alt="Reading view" />
-
-<br/><br/>
-
-<img src="./assets/screenshot-speaking.png" width="80%" alt="Speaking assessment" />
-
-<sub>📸 Screenshots — swap in your own under <code>/assets</code></sub>
+<img src="./assets/banner-screens.svg" width="100%" alt="Reading and Speaking views" />
 
 </div>
 
